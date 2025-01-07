@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 619px;
+  width: 1366px;
+  display: flex;
+}
+
+.container .image {
+  width: 50%;
+  background-image: url(../assets/foods.png);
+  background-size: cover;
+}
+
+.container .info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+h1 {
+  margin: 0 100px;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.info p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+}
+
+.info > h4 {
+  text-align: center;
+  padding: 20px 7px 20px 7px;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.container .social {
+  display: flex;
+    gap: 20px;
+}
+
+.container > .sl {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 0;
+  top: 0;
+}
+
+.sl > img{
+    width: 27x;
+    height: 27px;
+    border-radius: 50%;
+}

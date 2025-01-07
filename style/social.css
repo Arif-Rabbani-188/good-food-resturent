@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: absolute;
+  width: 1366px;
+  height: 619px;
+  left: 0;
+  top: 0;
+  background-image: url(../assets/social-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-size: 1366px 619px;
+  background-color: rgb(233, 233, 233);
+  background-blend-mode: overlay;
+}
+
+.text {
+  gap: 20px;
+  position: absolute;
+  width: 572px;
+  height: 275px;
+  left: 380px;
+  top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32;
+  padding: 0px;
+}
+h1 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+}
+h4 {
+  text-align: center;
+  padding: 20px 7px 20px 7px;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.container .social {
+  display: flex;
+  gap: 20px;
+}
+
+.container > .sl {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 0;
+  top: 0;
+}
+
+.sl > img {
+  width: 40x;
+  height: 40px;
+  border-radius: 50%;
+}
